@@ -1,5 +1,19 @@
-body{background-image:linear-gradient(to top left,#1315aa,#0d4163 ,#1d830f);
+body{
+    background-image: linear-gradient(#e66465, #9198e5);
+ 
 }
-header{}
-h1{}
-footer{}
+
+h1{text-align: center;background-image: url(CSGO.jfif); background-repeat:no-repeat;background-size:cover;background-position: center;}
+section{ text-align:left;}
+header{
+
+   
+}
+
+
+h2{
+
+}
+footer{
+
+}
