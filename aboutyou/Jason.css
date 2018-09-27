@@ -1,20 +1,43 @@
 body{
-    background-image: linear-gradient(#e66465, #9198e5);
-    font-family: 'Cousine', monospace;
+    color:0,222,555.5;
+    margin:200px; 
+    font-family: 'Cousine', monospace ;
+    background-image: url(net-development.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    word-wrap:break-word;
+
 }
 
-h1{text-align: center;background-image: url(CSGO.jfif); background-repeat:no-repeat;background-size:cover;background-position: center;}
+h1{
+
+    text-align: center;
+    background-image: url(CSGO.jfif); 
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
 section{border-style:solid;
+    text-align: left;
      border-width:  5px black}
+
 header{
 
    
 }
 
 
-h2{
-
+li{ 
+    list-style:none; 
 }
-footer{
 
+h2{
+text-emphasis: none;
+text-shadow:6px 2px navajowhite;
+}
+footer{text-align: center;
+background-image: cover;
+background-image:linear-gradient( grey white);
 }
