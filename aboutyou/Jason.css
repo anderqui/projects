@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     color:0,222,555.5;
     margin:200px; 
@@ -39,5 +40,8 @@ text-shadow:6px 2px navajowhite;
 }
 footer{text-align: center;
 background-image: cover;
-background-image:linear-gradient( grey white);
-}
+background-image:linear-gradient( grey white):
+
+h1{text-align: center;background-image: url(CSGO.jfif); background-repeat:no-repeat;background-size:cover;background-position: center;}
+section{border-style:solid;
+     border-width:  5px black}
