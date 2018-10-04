@@ -36,7 +36,8 @@ body{
     background-image: url(background\ chicken.jpg); 
     background-repeat:no-repeat;
     background-size:cover;
-    background-position: center;
+    background-position: center; 
+    position: relative;
 }
 
 footer{
@@ -45,4 +46,15 @@ footer{
     text-emphasis:none;
     text:center;
     
+}
+table {
+    border-collapse: collapse;
+    width: 50%;
+    border: 4px solid black;
+}
+table, td, th {
+    border: 2px solid black;
+}
+th {
+    height: 50px;
 }
