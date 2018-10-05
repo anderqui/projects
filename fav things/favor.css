@@ -58,3 +58,39 @@ table, td, th {
 th {
     height: 50px;
 }
+a:link {
+    color: red;
+}
+
+
+a:visited {
+    color: green;
+}
+
+
+a:hover {
+    color: hotpink;
+}
+
+
+a:active {
+    color: blue;
+}
+p::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+}
+
+p::first-line {
+    color: #0000ff;
+    font-variant: small-caps;
+}
+img {
+    float: right;
+}
+div > p {
+    background-color: yellow;
+}
+h1::before {
+    content: url(smiley.gif);    
+}
