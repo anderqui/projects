@@ -34,10 +34,14 @@ li a:hover:not(.active) {
 }
 body{
     background-image: url(background\ chicken.jpg); 
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position: center; 
-    position: relative;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: fixed;
+    font-size: 100%;
+    padding: 20;
+    margin: auto;
+    margin: 0;
+    width: 80%;
 }
 
 footer{
@@ -86,11 +90,25 @@ p::first-line {
     font-variant: small-caps;
 }
 img {
-    float: right;
+    float: bottom;
 }
 div > p {
     background-color: yellow;
 }
+h1{ 
+
+}
 h1::before {
-    content: url(smiley.gif);    
+    content: url();    
+}
+section{
+border: 4px gray;
+background-color: white;
+}
+img{
+    float: right;
+}
+p{
+    font-family: 'Vollkorn', serif;
+    font-family: 'Alegreya', serif;  
 }
