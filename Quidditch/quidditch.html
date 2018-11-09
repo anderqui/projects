@@ -79,18 +79,18 @@
         <section id='rules' class='container'>
             <h1>THE RULES</h1>
             <!--TAB NAV-->
-            <ul >
-                <li >
-                    <a href="#q-overview">OVERVIEW</a>
+            <ul nav>
+                <li class="nav-item">
+                    <a class="nav-link"href="#q-overview">OVERVIEW</a>
                 </li>
-                <li >
-                    <a  href="#q-roles">ROLES</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#q-roles">ROLES</a>
                 </li>
-                <li >
-                    <a  href="#q-balls">BALLS</a>
+                <li class="nav-item">
+                    <a class="nsv-link" href="#q-balls">BALLS</a>
                 </li>
-                <li >
-                    <a  href="#q-scoring">SCORING</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#q-scoring">SCORING</a>
                 </li>
             </ul>
             <!-- TAB CONTENT-->
@@ -100,7 +100,7 @@
                     <p>Quidditch is a fast, dangerous, exciting game in which two teams flying on brooms compete for points scored by throwing a ball – the Quaffle – through hoops on either end of a large grassy pitch.</p>
                     <p> There are three goal posts at either ends of a field. That field is called a Quidditch pitch. There are seven players on each side: the Keeper, the Seeker, three Chasers and two Beaters. One player is also appointed as the Captain. Professional teams will also have a manager.</p>
                 </article>
-                <article  id='q-roles'>
+                <article  id='q-roles' class="collaspe">
                     <ul >
                         <li ><button class='btn btn-primary'>Chasers</button></li>
                         <p id='desc-chasers'>The Chasers pass the Quaffle trying to throw it through one of the three hoops.</p>
@@ -112,7 +112,7 @@
                         <p id='desc-seeker' >The Seeker tries to catch the Golden Snitch, and in doing so, ends the game.</p>
                     </ul>
                 </article>
-                <article  id='q-balls'>
+                <article  id='q-balls' class= "collaspe">
                     <ul >
                         <li ><button class='btn btn-primary '>Quaffle</button></li>
                         
@@ -124,7 +124,7 @@
                         <p id='desc-snitch'>The Golden Snitch, commonly referred to as a Snitch, is the smallest and fastest ball in the game. </p>                        
                     </ul>
                 </article>
-                <article id='q-scoring'>
+                <article id='q-scoring' class= "collaspe">
                     <p >Quaffle = 10 pts. Snitch = 150 pts.</p>
                     <p>This scoring seems unfair, but typically Quidditch is played in a series of matches, and the team with the most accumulative points at the end of the series is the winner.</p>
                 </article>
@@ -135,18 +135,18 @@
 
         <!-- Customize the table to your preference.-->
 
-        <section id='worldcup' class='container'>
+        <section id='worldcup' class='container' >
             <h1>Quidditch World Cup</h1>
             <p>The Quidditch World Cup is played every year, similar to the Muggles Olympics. However, what some may not know is that the action actually starts two years prior to the World Cup.
             </p>
             <p>Any country capable of producing a Quidditch team is allowed to play in the World Cup. The first round, or 'group round', is when all the participating teams are separated into 16 groups, and over the course of two years, play each other. The accumulated points are tallied and the winners from each group progress on to the World Cup.</p>
-            <table >
+            <table class="table table-dark table-hover">
                 <tr >
                     <th>Year</th>
                     <th>Teams</th>
                     <th>Score</th>
                 </tr>
-                <tr>
+                <tr class="table-primary">
                     <td>1990</td>
                     <td>Canada vs. Scotland</td>
                     <td>270 - 240</td>
@@ -156,7 +156,7 @@
                     <td>Ireland vs. Bulgaria</td>
                     <td>170 - 160</td>
                 </tr>
-                <tr>
+                <tr class="table-primary">
                     <td>1998</td>
                     <td>Malawi vs. Senegal</td>
                     <td>260 - 180</td>
@@ -166,7 +166,7 @@
                     <td>Egypt vs. Bulgaria</td>
                     <td>450 - 300</td>
                 </tr>
-                <tr>
+                <tr class="table-primary">
                     <td>2006</td>
                     <td>Burkina Faso vs. France</td>
                     <td>300 - 220</td>
@@ -176,7 +176,7 @@
                     <td>Moldova vs. China</td>
                     <td>750 - 640</td>
                 </tr>
-                <tr>
+                <tr class="table-primary">
                     <td>2014</td>
                     <td>Bulgaria vs. Brazil</td>
                     <td>170 - 60</td>
@@ -189,21 +189,21 @@
         <section id='teams' class='container'>
             <h1>Known Teams</h1>
             <h3>Click on a team to see details.</h3>
-            <div >
+            <div class="dropdown">
                 <button type="button" class="btn btn-primary " >
                 The Teams
                 </button>
-                <div >
+                <div class="dropdown-menu">
                     <h5 >National Teams</h5>
-                        <a href="#" >Ireland</a>
-                        <a href="#" >Bulgaria</a>
-                        <a href="#" >Brazil</a>
-                        <a href="#" >USA</a>
+                        <a class="dropdown-item" href="#" >Ireland</a>
+                        <a class="dropdown-item" href="#" >Bulgaria</a>
+                        <a class="dropdown-item" href="#" >Brazil</a>
+                        <a class="dropdown-item" href="#" >USA</a>
                     <h5 >Hogwarts Teams</h5>
-                        <a href="#" >Gryffindor</a>
-                        <a href="#" >Hufflepuff</a>
-                        <a href="#" >Ravenclaw</a>
-                        <a href="#" >Slytherin</a>
+                        <a class="dropdown-item" href="#" >Gryffindor</a>
+                        <a class="dropdown-item" href="#" >Hufflepuff</a>
+                        <a class="dropdown-item" href="#" >Ravenclaw</a>
+                        <a class="dropdown-item" href="#" >Slytherin</a>
                 </div>
             </div>
             <div id='desc-teams'>
