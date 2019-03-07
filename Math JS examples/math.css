@@ -1,0 +1,20 @@
+body{
+    background-color:  #57613d;
+    text-align: center;
+    
+}
+.container{
+    text-align: center;
+    margin:auto;
+    width: 35%;
+    height: 550px;
+}
+form{
+    width:40%;
+    clear:both;
+    margin:auto;
+  
+}
+.container label{
+       display: block;
+}
