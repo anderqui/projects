@@ -1,8 +1,8 @@
 $(document).ready(function () {
     var turn = 1;
     var play=true;
-    var plscore=0
-    var plscore=0
+    var plscore=0;
+    var p2score=0;
     $('td').click(function () {
         if($(this).text()===''&& play=== true){
             if(turn%2===1){
