@@ -5,7 +5,7 @@ $(document).ready(function(){
  var LB= false
 })
     $('td').click(function(){
-        if(td){
+        if($(td).text()===""){
             
         }
     });
@@ -14,3 +14,7 @@ $(document).ready(function(){
         play=true;
         reset();
     })
+    for (var i=0;i<47;i++){
+        space.click($("#tile"+i)())
+
+    }
