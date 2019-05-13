@@ -1,22 +1,19 @@
-*{
-    margin:0;
-    padding:0;
-}
+
 #game{
-    border-collapse: collapse;
-    border-spacing: 0;
     margin: 25px auto 0;
 }
 table,td,th { 
     margin: 60px;
-    border:1px solid black; 
+    border:2px solid black; 
     padding:50px;
-    border-collapse: collapse;
-    border-left: remove
+    border-left: remove;
 }
 
 td:hover{
     background-color: #e4e4e4;
     cursor: pointer;
+}
+.topborder{
+ border-top-color: blue
 }
 
