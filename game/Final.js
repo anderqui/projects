@@ -3,7 +3,12 @@ var game = new phaser.game(480,320,Phaser.CANVAS,null,
             
     });
            
-    function preload() {}
+    function preload() {
+        game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
+        game.scale.pageAlignHorizontally = true;
+        game.scale.pageAlignVertically =true;
+        game.stagebackgroundColor = '#ddd';
+    }
            
     function create() {}
            
