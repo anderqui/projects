@@ -32,9 +32,9 @@ $(document).ready(function () {
     })
     });
     var checkWin = function(){
-        var spcae =[];
+        var space =[];
         for (var i=0; i<49;i++){
             
-        }hhh
+        }
 
     }
